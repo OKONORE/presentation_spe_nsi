@@ -17,8 +17,8 @@ theme:
     font: false                     # RGPD ; pas de fonte Google
     language: fr                    # français
     direction: ltr
-    logo: images/dark_logo.png
-    favicon: images/dark_logo.png
+    logo: images/logo.png
+    favicon: images/logo.png
     icon:
         repo: fontawesome/brands/github
     palette:                        # Palettes de couleurs jour/nuit
