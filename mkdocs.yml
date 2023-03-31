@@ -13,7 +13,6 @@ nav:
                                     # JUSTIFICATIONS
 theme:
     name: material
-    custom_dir: overrides
     font: false                     # RGPD ; pas de fonte Google
     language: fr                    # français
     direction: ltr
@@ -83,7 +82,9 @@ markdown_extensions:
     - pymdownx.emoji:               # Émojis  :boom:
         emoji_index:     !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
-
+        options:
+          custom_icons:
+            - ovverides/.icons
     - pymdownx.superfences:
         custom_fences:
           - name: mermaid
