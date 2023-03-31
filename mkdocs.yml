@@ -1,6 +1,7 @@
-site_name: Présentation de la spéicalité NSI
+site_name: Présentation de la spécialité NSI
 edit_uri: tree/main/docs/
 docs_dir: docs
+site_description: Présentation de la spécialitée NSI
 copyright: |
     Copyright © <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener"><img src="../images/by-nc-sa.png"></a> </a> 2022 <a href="https://github.com/OKONORE" target="_blank" rel="noopener"><b>Mathieu THOS<b/>
 # Modifier le copyright à votre goût
@@ -9,7 +10,6 @@ nav:
     - index.md
     - programme.md
     - bac.md
-
                                     # JUSTIFICATIONS
 theme:
     name: material
