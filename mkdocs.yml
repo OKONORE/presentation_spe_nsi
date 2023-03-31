@@ -1,5 +1,5 @@
 site_name: Présentation de la spécialité NSI
-edit_uri: tree/main/docs/
+edit_uri: http://tree/main/docs/
 docs_dir: docs
 site_description: Présentation de la spécialitée NSI
 copyright: |
@@ -13,6 +13,7 @@ nav:
                                     # JUSTIFICATIONS
 theme:
     name: material
+    custom_dir: overrides
     font: false                     # RGPD ; pas de fonte Google
     language: fr                    # français
     direction: ltr
